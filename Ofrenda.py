@@ -21,3 +21,20 @@ imagenes = {
     "pan": cargar_imagen("pan.png", (150, 150)),
     "cruz": cargar_imagen("cruz.png", (100, 150))
 }
+
+posiciones = {
+    "familiar": (310, 200),
+    "calaverita": (50, 400),
+    "flor": (250, 400),
+    "vela": (450, 400),
+    "pan": (600, 400),
+    "cruz": (350, 50)
+}
+
+for nombre, imagen in imagenes.items():
+    if imagen:
+        tk.Label(root, image=imagen, bg="orange").place(x=posiciones[nombre][0], y=posiciones[nombre][1])
+
+tk.Label(root, text="Altar de Día de Muertos", font=("Helvetica", 20), bg="orange", fg="purple").pack(pady=20)
+
+root.mainloop()
