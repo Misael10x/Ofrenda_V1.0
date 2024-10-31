@@ -1,0 +1,8 @@
+Requisitos:
+    Instalar la extenciòn de Python
+    Instalar la libreria de tkinter
+    importar Image, ImageTk
+
+Nota:
+Esta la version 1.0 del proyecto, ya que pretendo hacerlo con efectos de animaciones en algunos de los objectos y hacerlo un poco màs realista,
+en otras palabras que no sea tan simple. Incluso subirlo en un ambiente virtual usando "Flask" para tener una mejor interfaz.
